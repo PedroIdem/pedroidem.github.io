@@ -1,0 +1,29 @@
+/* Evitar desbordamientos */
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: #ffffff;
+}
+
+/* Contenedor de todas las páginas */
+.portfolio {
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+/* Adaptar las imágenes al ancho de la web */
+.portfolio img,
+.portfolio video {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
